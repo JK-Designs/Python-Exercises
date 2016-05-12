@@ -8,6 +8,6 @@
 # 2. Asks the user to enter his/her first name.
 # 3. Prints out the user's first and last names in that order.
 
-lastname = raw_input('Enter your last name:')
-firstname = raw_input('Enter your first name:')
-print ('Your name is ' + firstname + lastname)
+lastname = input('Enter your last name: ')
+firstname = input('Enter your first name: ')
+print ('Your name is ' + firstname + ' ' + lastname)
